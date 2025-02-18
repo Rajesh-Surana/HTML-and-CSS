@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="loginpage.html" method="get" enctype="multipart/form-data">
+      <div id="usern">
+        <input type="text" name="username" id="username" placeholder="Email or Username" minlength="8" required>
+      </div>  
+
+      <div id="passw">
+        <input type="password" name="password" id="password" placeholder="Password" minlength="8" required>
+      </div>
+
+      <div id="email">
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="mail" required>
+      </div>
+
+      <div id="dob">
+        <label for="birth">Date of Birth</label>
+        <input type="date" name="email" id="birth" min="01-01-1990" required>
+      </div>
+
+      <div id="time">
+        <label for="btime">Birth Time</label>
+        <input type="datetime" name="birth time" id="btime">
+      </div>
+
+      <div id="dtime">
+        <label for="dt">Current Date & Time</label>
+        <input type="datetime-local" name="date & time" id="dt" required>
+      </div>
+
+      <div id="yofb">
+        <label for="yob">Birth Year</label>
+        <input type="number" name="Year of birth" id="yob" required>
+      </div>
+
+      <div id="hides">
+        <input type="hidden" name="hidden" id="hide">
+      </div>
+
+      <div id="bm">
+        <label for="bmonth">Birth Month</label>
+        <input type="month" name="birth Month" id="bmonth" minlength="4">
+      </div>
+
+      <div id="bw">
+        <label for="bweek">Birth Week</label>
+        <input type="week" name="birth week" id="bweek">
+      </div>
+
+      <div id="mobile number">
+        <label for="mn">Mobile Number</label>
+        <input type="number" name="mobile number" id="mn" minlength="10" required>
+      </div>
+
+      <div id="tele">
+        <label for="tel">Telephone Number</label>
+        <input type="tel" name="Telephone" id="tel" required>
+      </div>
+
+      <div id="kyc">
+        <label for="kycf">Upload kyc file</label>
+        <input type="file" name="kyc file" id="kycf" required>
+      </div>
+
+      <div id="cr">
+        <label for="color">Choose your favorate color</label>
+        <input type="color" name="color" id="color" required>
+      </div>
+
+      <div id="about">
+        <label for="ab">About me</label>
+        <textarea name="" id="" cols="30" rows="10">About me...</textarea>
+      </div>
+      <div id="lan">
+      <div id="lan1">
+        <h3>Languages Known</h3>
+        <label for="lang1">Tamil</label>
+        <input type="checkbox" name="Tamil" id="lang1" required>
+      </div>
+      <div id="lan2">
+        <label for="lang2">Hindi</label>
+        <input type="checkbox" name="Hindi" id="lang2">
+      </div>
+
+      <div id="lan3">
+        <label for="lang3">English</label>
+        <input type="checkbox" name="English" id="lang3">
+      </div>
+    </div>
+
+      <div id="gen1">
+        <h4>Gender :</h4>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+     </div> 
+     <div id="gen2">
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+     </div>
+
+     <div id="coun1">
+        <label for="">Select Your Country</label>
+        <select name="Country" id="country" required>
+            <option value="India">India</option>
+            <option value="USA" label="USA"></option>
+            <option value="China" label="China"></option>
+            <option value="South Africa" label="South Africa"></option>
+            <option value="Russia" label="Russia"></option>
+            <option value="France" label="France"></option>
+            <option value="United Kingdom" label="United Kingdom"></option>
+            <option value="Japan" label="Japan"></option>
+            <option value="South Korea" label="South Korea"></option>
+            <option value="North Korea" label="North Korea"></option>
+            <option value="Poland" label="Poland"></option>
+        </select>
+     </div>
+    <br>
+     <div id="hobbie" required>
+        <label for="Hobbies">Select Your Hobbies</label>
+        <select name="hobby" id="hobby" multiple>
+        <option value="sleep">Sleep</option>
+        <option value="Read" label="Reading Books"></option>
+        <option value="play cricket" label="play cricket"></option>
+        <option value="volly ball" label="volly ball"></option>
+        <option value="football" label="football"></option>
+        <option value="basketball" label="basketball"></option>
+        <option value="chess" label="chess"></option>
+        <option value="travel" label="travel"></option>
+        <option value="cooking" label=" cooking"></option>
+        </select>
+     </div>
+<br>
+     <div id="search">
+        <label for="se">Search</label>
+        <input type="search" name="" id="se">
+     </div>
+
+     <br>
+
+     <div id="ur">
+        <label for="url">URL</label>
+        <input type= "url" name = "url" id="url">
+     </div>
+
+     <div id="ran">
+        <label for="range">Range</label>
+        <input type= "range" name = "url" id="range">
+     </div>
+
+     <button type="submit">Log in</button>
+     <input type="image" src="bowl-rice-solid.ico" alt="boel of Rice" title="bowl Rice" width="100" height="40">
+         <button type="reset">Reset</button>
+     <br> <br> <br> <br>
+    </form>
+</body>
+</html>
