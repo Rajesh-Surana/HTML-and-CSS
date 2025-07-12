@@ -1,0 +1,71 @@
+.square{
+    width:200px;
+    height:200px;
+    background-color: aqua;
+    color:brown;
+    transition-duration:3s;
+    transition-property:background-color;
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: cubic-bezier(1,-0.16, 0.85, 1.09);
+    transition-duration: 1s;
+    transition:background-color,width 3s 1s linear; */
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.square:hover{
+    /* background-color: chocolate;
+    color:blueviolet;
+    width:300px; */
+    /* transform: rotatex(45deg);   */
+    /* transform: rotatey(45deg); */
+    /* transform: scale(4);   */
+    /* transform: scaley(2); */
+    transform: translatex(-20px);
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: rgb(89, 49, 127);
+    color:rgb(255, 247, 247);
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    animation-name: circle; 
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    /* margin-bottom: 20px; */
+    /* animation-timing-function: ease-in; */
+    /* animation-direction: normal; */
+    /* animation-delay: 3s; */
+}
+
+@keyframes circle {
+    0%{
+        background-color:darkgreen;
+        width:50px;
+        height:50px;  
+        left:00px;
+        top:00px;
+    }
+    50%{ 
+        background-color: brown;
+        width:100px;
+        height:100px; 
+        left:200px;
+        top:200px;
+    } 
+    100%{
+        background-color: rgb(145, 121, 244);
+        width:50px;
+        height:50px; 
+        left:200px;
+        top:00px;
+    }
+}

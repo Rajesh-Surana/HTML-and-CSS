@@ -1,0 +1,60 @@
+#heading{
+    border: 2px solid blue;
+    width: 800px;
+}
+.paradiv{
+    max-width:8000px;
+    border:1px solid black;
+}
+
+a:hover{
+color:aqua;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color:blueviolet
+}
+a{
+  display:list-item;
+  margin-top: 20px;
+    text-decoration: none;
+    /* border:2px solid orange */
+}
+p{
+    line-height: 1.5em;
+    text-align:justify;
+    text-indent: 50px;
+    width:400px;
+    height: 360px;
+    background-color: greenyellow;
+    font-size: 15px;
+    padding: 15px;
+    margin: 20px auto;
+    border: 30px solid black;
+    border-image: url(bowl-rice-solid\ \(1\).ico) 30 round;
+    /* border: 2px solid blue;
+
+     border-radius: 80px 50px;
+     -moz-border-radious:80px 50px;
+     -webkit-border-radious:80px 50px;
+     box-shadow: 10px 10px 10px gray;
+    -moz-box-shadow:10px 10px 10px gray;
+    -webkit-box-shadow: 10px 10px 5px 20px gray; */
+    /* -webkit-box-shadow:inset -10px -10px 5px 20px gray; */
+
+    
+    }
+
+li{
+    display:inline;
+    margin:0px 5px;
+   
+}
+.coming-soon{
+    /* display:none;  
+     visibility: collapse; 
+    visibility: hidden; */
+
+}

@@ -1,0 +1,60 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+}
+#name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.62em;
+    font-weight :2px;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 0.1em;
+    word-spacing: 0.0em;
+    /* text-align: right; */
+    text-indent:1.8em;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-decoration: none;
+    color:rgb(227, 146, 146);
+    line-height: 1.5em;
+    text-align: justify;
+    text-shadow:2px 2px 2px blue;
+}
+
+p:first-line{
+    font-size: 2em;
+}
+
+a:visited{
+    color:black;
+}
+a:link{
+    color: aqua;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: red;
+}
+
+/* p.myclass{
+
+} */
+
+
+/* p[id =para1]{
+    color:orange;
+} */
+/* p[class~="myclass2"]{
+    color:black;
+} */
+
+p[calss*=la]{
+    color:rgb(199, 26, 26);
+}

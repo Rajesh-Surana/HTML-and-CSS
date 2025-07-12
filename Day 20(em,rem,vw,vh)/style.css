@@ -1,0 +1,36 @@
+/* html{
+    font-size: 20px;
+}
+.conatiner{
+    font-size: 1.5em;
+} */
+
+/* .para1{
+    font-size:30px;
+}
+.para2{
+    font-size:2rem;
+} */
+
+/* vw- view port width,vh- view port height */
+ /* .container{
+    width:50vw;
+    height:50vh;
+    border:2px solid black;
+ } */
+
+ /* vmin-view minimum */
+
+ /* .container{
+    width:50vmin;
+    height:50vh;
+    border: 2px solid black;
+ } */
+
+ /* vmax-view maximun */
+
+ .container{
+    width:50vw;
+    height: 50vmax;
+    border:1px solid black;
+ }
