@@ -1,0 +1,49 @@
+/* universal selector */
+*{
+    color: blueviolet;
+}
+/* type selector */
+h1,h3,span{
+    color: aqua;
+    text-decoration:underline;
+}
+/* id selector = # */
+
+#p1{
+    color: brown;
+    text-decoration:dashed; 
+}
+/* class selector = . */
+.para{
+    color: red;
+}
+/* \]]\ Comment Line*/
+/* type selector */
+span{
+    color:orange
+}
+/* child selector = > */
+div>p{
+    color:black;
+}
+/* desendent selector = space( ) */
+div a{
+    color:gray;
+    text-decoration:none;
+}
+/* p>a{
+    color:lime;
+} */
+ /* sibling selector = ~ */
+
+ h1~h4{
+    color: black;
+ }
+/* adjacent sibling selector = + */
+
+h5+h6{
+    color:chartreuse;
+}
+h5,h6{
+    color:red !important;
+}
